@@ -19,6 +19,9 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 ## Change history
 
 ### 2026-08-20 · Cycle 2 · 1 change · merged
+- **safety:memory-retention** — This prompt update enhances memory retention by explicitly stating that responses must be strictly grounded in the provided material, preventing the agent from introducing external information or assumptions.
+
+### 2026-08-20 · Cycle 2 · 1 change · merged
 - **behavior:honest-limits** — The agent needs a concrete example to guide its refusal of out-of-scope requests, especially regarding code implementation.
 
 ### 2026-08-20 · Cycle 2 · 1 change · merged

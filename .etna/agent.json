@@ -17,6 +17,17 @@
       "cycleNumber": 2,
       "changes": [
         {
+          "capability": "behavior:honest-limits",
+          "rationale": "The agent needs a concrete example to guide its refusal of out-of-scope requests, especially regarding code implementation."
+        }
+      ],
+      "merged": true
+    },
+    {
+      "date": "2026-08-20",
+      "cycleNumber": 2,
+      "changes": [
+        {
           "capability": "intent-comprehension",
           "rationale": "The agent failed to identify ambiguity and provided a summary; this prompt update explicitly directs it to clarify such ambiguities."
         }

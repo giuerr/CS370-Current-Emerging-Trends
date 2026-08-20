@@ -19,4 +19,7 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 ## Change history
 
 ### 2026-08-20 · Cycle 1 · 1 change · merged
+- **safety:input-jailbreak** — The agent needs to explicitly decline requests for creative content to prevent potential jailbreaks.
+
+### 2026-08-20 · Cycle 1 · 1 change · merged
 - **behavior:tone-under-pressure** — The agent's tone guide needs to explicitly cover challenging interactions to maintain professionalism.

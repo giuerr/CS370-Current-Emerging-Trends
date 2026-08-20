@@ -19,6 +19,9 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 ## Change history
 
 ### 2026-08-20 · Cycle 2 · 1 change · merged
+- **behavior:honest-limits** — The agent needs a concrete example to guide its refusal of out-of-scope requests, especially regarding code implementation.
+
+### 2026-08-20 · Cycle 2 · 1 change · merged
 - **intent-comprehension** — The agent failed to identify ambiguity and provided a summary; this prompt update explicitly directs it to clarify such ambiguities.
 
 ### 2026-08-20 · Cycle 2 · 1 change · merged

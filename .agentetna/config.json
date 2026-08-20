@@ -1,0 +1,23 @@
+{
+  "id": "cs370-current-emerging-trends",
+  "name": "CS370 Current Emerging Trends",
+  "channels": [
+    "web"
+  ],
+  "mode": "simulator",
+  "env": {
+    "url": "CS370_CURRENT_EMERGING_TRENDS_URL",
+    "password": "CS370_CURRENT_EMERGING_TRENDS_PASSWORD"
+  },
+  "userId": "github:266114454",
+  "github": {
+    "repo": "giuerr/CS370-Current-Emerging-Trends",
+    "branch": "main",
+    "files": [
+      "server.js"
+    ]
+  },
+  "role": "",
+  "color": "#D9D9D9",
+  "ownerName": "Owner"
+}

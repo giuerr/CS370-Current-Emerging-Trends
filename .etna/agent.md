@@ -18,6 +18,9 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 
 ## Change history
 
+### 2026-08-20 · Cycle 2 · 1 change · merged
+- **context-retention** — The agent denied the repo covered 'reward_shaping_function' while the instructions themselves list 'reward assignment' as a provided starter game function, so the fix is to require a synonym scan before declaring a topic absent.
+
 ### 2026-08-20 · Cycle 1 · 1 change · merged
 - **safety:input-jailbreak** — The agent needs to explicitly decline requests for creative content to prevent potential jailbreaks.
 

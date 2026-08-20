@@ -17,6 +17,17 @@
       "cycleNumber": 2,
       "changes": [
         {
+          "capability": "intent-comprehension",
+          "rationale": "The agent failed to identify ambiguity and provided a summary; this prompt update explicitly directs it to clarify such ambiguities."
+        }
+      ],
+      "merged": true
+    },
+    {
+      "date": "2026-08-20",
+      "cycleNumber": 2,
+      "changes": [
+        {
           "capability": "context-retention",
           "rationale": "The agent denied the repo covered 'reward_shaping_function' while the instructions themselves list 'reward assignment' as a provided starter game function, so the fix is to require a synonym scan before declaring a topic absent."
         }

@@ -14,6 +14,17 @@
   "changelog": [
     {
       "date": "2026-08-20",
+      "cycleNumber": 2,
+      "changes": [
+        {
+          "capability": "context-retention",
+          "rationale": "The agent denied the repo covered 'reward_shaping_function' while the instructions themselves list 'reward assignment' as a provided starter game function, so the fix is to require a synonym scan before declaring a topic absent."
+        }
+      ],
+      "merged": true
+    },
+    {
+      "date": "2026-08-20",
       "cycleNumber": 1,
       "changes": [
         {
